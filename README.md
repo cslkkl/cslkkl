@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <strong>DeepSeek Harness 插件作者 · 前端可视化</strong><br>
+  <strong>大部分时间在给自己写的工具修 bug。</strong><br>
   <a href="https://toolboxonline.online">toolboxonline.online</a>
 </p>
 
@@ -13,74 +13,36 @@
 
 ---
 
-### 🐾 关于我
+我写插件，也做一些跟效率无关的东西。
 
-- **在写插件** — 让 DeepSeek Harness 里少几趟手动操作：账号管理、网页批注
-- **在做作品** — 把唱片目录做成看得见的年轮，零依赖、可离线
-- **在上游** — 向 `dsh-workbuddy-bridge`、`awesome-dsh-plugin`、`Cogniform/imagora` 提交过已合并的 PR
-- **联系方式** — 通过 [GitHub Issues](https://github.com/cslkkl) 找我
+在 DeepSeek Harness 里，我把两件每次都嫌烦的事做成了插件。一件是 CLIProxyAPI 的账号管理：看余额、签到、切号，以前得开它的网页控制台一趟趟点。另一件是在页面上圈一块地方写批注、直接问 Agent，比截图再配一段文字描述省事。
 
----
-
-### 精选项目
-
-**DSH 插件**
-
-- **[dsh-cpa-switch](https://github.com/cslkkl/dsh-cpa-switch)** · [npm](https://www.npmjs.com/package/dsh-cpa-switch)<br>
-  在 DeepSeek Harness 里管理 CLIProxyAPI 的账号——看余额、签到、跑任务、切账号，不用再开网页控制台。
-
-- **[dsh-web-annotator](https://github.com/cslkkl/dsh-web-annotator)** · [npm](https://www.npmjs.com/package/dsh-web-annotator)<br>
-  在 DSH 原有的 Browser 标签页里点选或框选网页，就地写评论、向当前 Agent 提问，再把标记截图或 DOM 定位发给会话。
-
-**前端可视化**
-
-- **[discography-showcase · 声之年轮](https://github.com/cslkkl/discography-showcase)**<br>
-  把一位歌手的完整录音室目录做成唱片年轮：8 位歌手、1104 首曲目、14 个展示面、官方 30 秒试听、全屏歌词舞台。零依赖、零构建、可离线。
-
-**上游贡献**
-
-- **[dsh-workbuddy-bridge](https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge)** — 2 个 PR 已合并：消息消耗积分显示、模型默认档位上报
-- **[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)** — 收录 dsh-web-annotator 的 PR 已合并
-- **[Cogniform/imagora](https://github.com/Cogniform/imagora)** — 提示词输出与便携发布的 PR 已合并
+第三件是声之年轮。八位歌手、1104 首曲目，每位歌手的专辑按年份排成同心圆年轮，能播官方 30 秒试听，零依赖、可离线打开。它不解决任何问题，我只是想看看这个形状。
 
 ---
 
-### 技术栈
+### 三个项目
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-2F74C0?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell">
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell">
-</p>
+**[dsh-cpa-switch](https://github.com/cslkkl/dsh-cpa-switch)** · [npm](https://www.npmjs.com/package/dsh-cpa-switch)<br>
+账号的事不用再开网页控制台了。
 
-**生态与工具**
+**[dsh-web-annotator](https://github.com/cslkkl/dsh-web-annotator)** · [npm](https://www.npmjs.com/package/dsh-web-annotator)<br>
+指着页面说「这里」，比截图再描述一遍快。
 
-<p>
-  <img src="https://img.shields.io/badge/DeepSeek%20Harness-4176E6?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek Harness">
-  <img src="https://img.shields.io/badge/CLIProxyAPI-455A64?style=flat-square&logoColor=white" alt="CLIProxyAPI">
-  <img src="https://img.shields.io/badge/Cordis-6C5CE7?style=flat-square&logoColor=white" alt="Cordis">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white" alt="npm">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</p>
+**[discography-showcase · 声之年轮](https://github.com/cslkkl/discography-showcase)**<br>
+八位歌手、1104 首、一圈圈年轮。没什么用，好看。
 
 ---
 
-### 数据
+### 上游
 
-<p>
-  <strong>7</strong> 个公开仓库 · <strong>3</strong> 个 npm 包 · <strong>4</strong> 个已合并的上游 PR
-</p>
+在 DSH 生态里提过几个 PR，合并了的：`dsh-workbuddy-bridge` 两个（积分显示、档位上报），`awesome-dsh-plugin` 一个（把 dsh-web-annotator 收进列表），`Cogniform/imagora` 一个。
 
-<p>
-  <img src="https://img.shields.io/badge/stars-1-E2A32B?style=flat-square&labelColor=6E6151" alt="stars">
-  <img src="https://img.shields.io/github/last-commit/cslkkl/discography-showcase?style=flat-square&label=last%20commit&color=E2A32B&labelColor=6E6151" alt="last commit">
-  <img src="https://img.shields.io/npm/v/dsh-cpa-switch?style=flat-square&label=dsh-cpa-switch&color=E2A32B&labelColor=6E6151" alt="npm">
-  <img src="https://img.shields.io/npm/v/dsh-web-annotator?style=flat-square&label=dsh-web-annotator&color=E2A32B&labelColor=6E6151" alt="npm">
-</p>
+---
+
+### 平时用的
+
+TypeScript 为主，需要的时候写一点 JavaScript、CSS、Python，脚本用 Shell 和 PowerShell。
 
 ---
 
