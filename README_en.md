@@ -76,7 +76,7 @@
 </p>
 
 <p>
-  <img src="https://img.shields.io/github/stars/cslkkl/dsh-cpa-switch?style=flat-square&label=stars&color=E2A32B&labelColor=6E6151" alt="stars">
+  <img src="https://img.shields.io/badge/stars-1-E2A32B?style=flat-square&labelColor=6E6151" alt="stars">
   <img src="https://img.shields.io/github/last-commit/cslkkl/discography-showcase?style=flat-square&label=last%20commit&color=E2A32B&labelColor=6E6151" alt="last commit">
   <img src="https://img.shields.io/npm/v/dsh-cpa-switch?style=flat-square&label=dsh-cpa-switch&color=E2A32B&labelColor=6E6151" alt="npm">
   <img src="https://img.shields.io/npm/v/dsh-web-annotator?style=flat-square&label=dsh-web-annotator&color=E2A32B&labelColor=6E6151" alt="npm">
