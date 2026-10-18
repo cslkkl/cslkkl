@@ -1,10 +1,11 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile-en.jpg">
   <img src="assets/banner-en.jpg" alt="KKLCSL — Follow the problem." width="100%">
-</div>
+</picture>
 
 **I build tools for problems I run into, and share the useful ones.**
 Currently working on AI workflows, DeepSeek Harness plugins, and music visualization.
-<sub>English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page</sub>
+<sub>(English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page)</sub>
 
 ## Selected work
 

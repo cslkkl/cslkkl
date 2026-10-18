@@ -1,10 +1,11 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile-zh.jpg">
   <img src="assets/banner-zh.jpg" alt="KKLCSL — 沿着问题找路。" width="100%">
-</div>
+</picture>
 
 **为自己遇到的问题做工具，也把好用的部分开源。**
 最近主要折腾 AI 工作流、DeepSeek Harness 插件和音乐可视化。
-<sub>[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版</sub>
+<sub>（[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版）</sub>
 
 ## 精选作品
 
