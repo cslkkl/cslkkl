@@ -23,6 +23,10 @@
 **少开一个控制台，在 DSH 里管理 CLIProxyAPI 账号。**
 看余额、签到、切换账号都在当前工作界面完成；CPA 跟着 DSH 一起启停，不用再手动接模型。
 
+<a href="https://github.com/cslkkl/dsh-cpa-switch"><img src="assets/dsh-cpa-switch-demo.png" alt="CPA 切换器面板：四个渠道页签、剩余 / 已用 / 额度池汇总，以及标着 Demo Account A、B、C 的三张账号卡。示意数据，不是真实账号。" width="100%"></a>
+
+<sub>配图使用虚构演示账号与演示额度。</sub>
+
 [查看项目](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
 ### discography-showcase
