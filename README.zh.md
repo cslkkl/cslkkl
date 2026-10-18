@@ -1,59 +1,51 @@
 <div align="center">
-  <img src="assets/banner.jpg" alt="KKLCSL — 沿着问题找路，把每次尝试留在代码里" width="100%">
+  <img src="assets/banner-zh.jpg" alt="KKLCSL — 沿着问题找路。" width="100%">
 </div>
 
-<p align="center">
-  <strong>大部分时间在给自己写的工具修 bug。</strong><br>
-  <a href="https://toolboxonline.online">toolboxonline.online</a>
-</p>
+**为自己遇到的问题做工具，也把好用的部分开源。**
+最近主要折腾 AI 工作流、DeepSeek Harness 插件和音乐可视化。
 
-<p align="center">
-  <a href="README.md">English</a> · 中文
-</p>
+[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版
 
----
-
-### dsh-cpa-switch
-
-在 DeepSeek Harness 里管理 CLIProxyAPI 的账号。
-
-- 看余额、签到、跑任务，不用打开网页控制台
-- 就地切换账号
-- 自动注册四个渠道的对话模型，CPA 随 DSH 启停
-
-[GitHub](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
+## 精选作品
 
 ### dsh-web-annotator
 
-在 DSH 的 Browser 标签页里标记网页，就地提问。
+**在网页上圈出问题，直接交给 Agent。**
+在 DeepSeek Harness 的 Browser 里点选元素或拖一个框，就地写下批注，再把标记截图或 DOM 定位发进会话。
 
-- 点选元素，或拖动框选一块区域
-- 就地写评论；展开卡片能看标签、颜色、字体，也能直接改
-- 把标记截图或 DOM 定位发进会话
+<a href="https://github.com/cslkkl/dsh-web-annotator"><img src="assets/dsh-web-annotator.png" alt="在 DSH Browser 里框选网页上的一块区域，旁边就地写着批注" width="100%"></a>
 
-[GitHub](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
+[查看项目](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
+
+### dsh-cpa-switch
+
+**少开一个控制台，在 DSH 里管理 CLIProxyAPI 账号。**
+看余额、签到、切换账号都在当前工作界面完成；CPA 跟着 DSH 一起启停，不用再手动接模型。
+
+[查看项目](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
 ### discography-showcase
 
-八位歌手的完整录音室目录，排成唱片年轮。
+**把唱片目录，排成可以浏览的年轮。**
+八位歌手的完整录音室目录、1,104 首曲目，按年份一圈圈读下去；每首都可听官方 30 秒试听，本机音源可以开全屏歌词舞台。
 
-- 1104 首曲目、14 个展示面、官方 30 秒试听
-- 本机曲目可开全屏歌词舞台
-- 繁简中文一键切换
-- 零依赖、零构建、可离线
+<a href="https://github.com/cslkkl/discography-showcase"><img src="assets/discography-showcase.png" alt="年轮视图：一张专辑一圈，由内而外按年份排列，右侧是同一批专辑的列表" width="100%"></a>
 
-[GitHub](https://github.com/cslkkl/discography-showcase)
+[查看项目](https://github.com/cslkkl/discography-showcase)
 
----
+## 参与的开源项目
 
-### 上游
+已合并进别人维护的仓库：
 
-DSH 生态里已合并的 PR：`dsh-workbuddy-bridge` 两个（积分消耗显示、默认档位上报）、`awesome-dsh-plugin` 一个（收录 dsh-web-annotator）、`Cogniform/imagora` 一个（提示词输出与便携发布）。
+- **dsh-workbuddy-bridge** —— 每条回复的积分消耗、模型选择器旁的剩余积分（[#3](https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/pull/3)）；每个能切档位的模型上报默认档位，去掉选择器里没有信息量的「Default」（[#4](https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/pull/4)）
+- **Cogniform/imagora** —— 提示词出图流与零安装的 Windows 便携版发布（[#2](https://github.com/Cogniform/imagora/pull/2)）
 
----
+<sub>另有 dsh-web-annotator 被 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/6833) 收录。</sub>
 
 <div align="center">
 
-🐕 <em>Keep sniffing, keep shipping.</em>
+🐾 <em>Keep sniffing, keep shipping.</em>
+<sub>大部分时间在给自己写的工具修 bug。</sub>
 
 </div>

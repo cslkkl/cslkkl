@@ -1,59 +1,51 @@
 <div align="center">
-  <img src="assets/banner-en.jpg" alt="KKLCSL — Follow the problem, leave every attempt in the code" width="100%">
+  <img src="assets/banner-en.jpg" alt="KKLCSL — Follow the problem." width="100%">
 </div>
 
-<p align="center">
-  <strong>Mostly fixing bugs in tools I wrote for myself.</strong><br>
-  <a href="https://toolboxonline.online">toolboxonline.online</a>
-</p>
+**I build tools for problems I run into, and share the useful ones.**
+Currently working on AI workflows, DeepSeek Harness plugins, and music visualization.
 
-<p align="center">
-  English · <a href="README.zh.md">中文</a>
-</p>
+English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page
 
----
-
-### dsh-cpa-switch
-
-Account management for CLIProxyAPI, inside DeepSeek Harness.
-
-- balance, check-in and task running without opening the web console
-- switch accounts in place
-- registers the four channel models, starts and stops CPA together with DSH
-
-[GitHub](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
+## Selected work
 
 ### dsh-web-annotator
 
-Mark up a page in the DSH Browser tab and ask the Agent from there.
+**Circle the problem on the page, then hand it to the Agent.**
+Inside the DeepSeek Harness Browser, click an element or drag a box, write the comment where you are looking, then send the marked screenshot or the DOM locator into the session.
 
-- click an element or drag a box to select a region
-- write the comment in place; expand the card to inspect tag, color and font — and edit them
-- send the marked screenshot or the DOM locator into the session
+<a href="https://github.com/cslkkl/dsh-web-annotator"><img src="assets/dsh-web-annotator.png" alt="A region of a web page selected inside the DSH Browser, with the comment written in place next to it" width="100%"></a>
 
-[GitHub](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
+[View project](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
+
+### dsh-cpa-switch
+
+**One less console tab: CLIProxyAPI accounts, managed inside DSH.**
+Check balance, check in and switch accounts without leaving the workspace, and let CPA start and stop with DSH instead of by hand.
+
+[View project](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
 ### discography-showcase
 
-Eight artists' complete studio catalogues, arranged as record year-rings.
+**A record catalogue, arranged as year-rings.**
+Eight artists' complete studio discographies — 1,104 tracks — read year by year as concentric rings, with official 30-second previews and a full-screen lyric stage for the audio you own locally.
 
-- 1104 tracks, 14 presentation surfaces, official 30-second previews
-- full-screen lyric stage for tracks you own locally
-- simplified/traditional Chinese toggle
-- zero dependencies, no build step, works offline
+<a href="https://github.com/cslkkl/discography-showcase"><img src="assets/discography-showcase.png" alt="The year-ring view: one ring per album, ordered by year, with the album list beside it" width="100%"></a>
 
-[GitHub](https://github.com/cslkkl/discography-showcase)
+[View project](https://github.com/cslkkl/discography-showcase)
 
----
+## Open-source contributions
 
-### Upstream
+Merged into projects other people maintain:
 
-Merged PRs in the DSH ecosystem: two in `dsh-workbuddy-bridge` (credit usage, default tier reporting), one in `awesome-dsh-plugin` (listing dsh-web-annotator), one in `Cogniform/imagora` (prompt output, portable release).
+- **dsh-workbuddy-bridge** — credit spent per reply and remaining credit next to the model picker ([#3](https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/pull/3)); every model that can switch effort now reports its default, so the picker no longer offers a meaningless “Default” ([#4](https://github.com/dsh-plugin-lab/dsh-workbuddy-bridge/pull/4))
+- **Cogniform/imagora** — prompt output flow and a zero-install Windows portable release ([#2](https://github.com/Cogniform/imagora/pull/2))
 
----
+<sub>dsh-web-annotator is also listed in [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/6833).</sub>
 
 <div align="center">
 
-🐕 <em>Keep sniffing, keep shipping.</em>
+🐾 <em>Keep sniffing, keep shipping.</em>
+<sub>Mostly fixing bugs in tools I wrote for myself.</sub>
 
 </div>
