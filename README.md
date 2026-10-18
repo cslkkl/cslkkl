@@ -7,11 +7,11 @@
 
 Currently working on AI workflows, DeepSeek Harness plugins, and music visualization.
 
-English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page
+English · [中文](README.zh.md) · [Website](https://toolboxonline.online)
 
 ## Selected work
 
-### Circle the problem on the page, then hand it to the Agent.
+### Mark the problem. Send the context.
 
 `dsh-web-annotator`
 
@@ -24,7 +24,7 @@ Select part of a page in the DSH Browser, write the comment where you are lookin
 
 [View project](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
 
-### One less console tab: CLIProxyAPI accounts, managed inside DSH.
+### One less console tab.
 
 `dsh-cpa-switch`
 
@@ -39,7 +39,7 @@ Check balance, check in and switch accounts without leaving the workspace, and l
 
 [View project](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
-### A record catalogue, arranged as year-rings.
+### Explore music through year-rings.
 
 `discography-showcase`
 
@@ -48,7 +48,7 @@ Check balance, check in and switch accounts without leaving the workspace, and l
   <img src="assets/discography-showcase.png" alt="The complete year-ring view: one ring per album from 2000 outward, with the album list beside it" width="100%">
 </picture>
 
-Eight artists' complete studio discographies — 1,104 tracks — read year by year as concentric rings, with official 30-second previews and a full-screen lyric stage for the audio you own locally.
+Eight artists' complete studio discographies — 1,104 tracks — read year by year as concentric rings.
 
 [View project](https://github.com/cslkkl/discography-showcase)
 

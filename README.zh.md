@@ -7,11 +7,11 @@
 
 最近主要折腾 AI 工作流、DeepSeek Harness 插件和音乐可视化。
 
-[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版
+[English](README.md) · 中文 · [Website](https://toolboxonline.online)
 
 ## 精选作品
 
-### 在网页上圈出问题，直接交给 Agent。
+### 圈出问题，交给 Agent。
 
 `dsh-web-annotator`
 
@@ -24,7 +24,7 @@
 
 [查看项目](https://github.com/cslkkl/dsh-web-annotator) · [npm](https://www.npmjs.com/package/dsh-web-annotator)
 
-### 少开一个控制台，在 DSH 里管理 CLIProxyAPI 账号。
+### 少开一个控制台。
 
 `dsh-cpa-switch`
 
@@ -39,7 +39,7 @@
 
 [查看项目](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
-### 把唱片目录，排成可以浏览的年轮。
+### 把音乐，展开成年轮。
 
 `discography-showcase`
 
@@ -48,7 +48,7 @@
   <img src="assets/discography-showcase.png" alt="完整的年轮视图：一张专辑一圈，从 2000 年由内而外排开，右侧是同一批专辑的列表" width="100%">
 </picture>
 
-八位歌手的完整录音室目录、1,104 首曲目，按年份一圈圈读下去；每首都可听官方 30 秒试听，本机音源可以开全屏歌词舞台。
+八位歌手的完整录音室目录、1,104 首曲目，按年份一圈圈读下去。
 
 [查看项目](https://github.com/cslkkl/discography-showcase)
 
