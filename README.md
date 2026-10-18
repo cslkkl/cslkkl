@@ -23,8 +23,6 @@ In the DSH Browser, select part of a page, comment in place, then send the marke
 **One less console tab: CLIProxyAPI accounts, managed inside DSH.**
 Check balance, check in and switch accounts without leaving the workspace, and let CPA start and stop with DSH instead of by hand.
 
-<a href="https://github.com/cslkkl/dsh-cpa-switch"><img src="assets/dsh-cpa-switch.png" alt="The CPA switcher inside DSH: four channel tabs, remaining / used / quota pool, and six account cards" width="100%"></a>
-
 [View project](https://github.com/cslkkl/dsh-cpa-switch) · [npm](https://www.npmjs.com/package/dsh-cpa-switch)
 
 ### discography-showcase
