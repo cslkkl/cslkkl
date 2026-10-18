@@ -4,15 +4,14 @@
 
 **为自己遇到的问题做工具，也把好用的部分开源。**
 最近主要折腾 AI 工作流、DeepSeek Harness 插件和音乐可视化。
-
-[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版
+<sub>[English](README.md) · 中文 · [toolboxonline.online](https://toolboxonline.online) —— 同样这些作品的网页版</sub>
 
 ## 精选作品
 
 ### dsh-web-annotator
 
 **在网页上圈出问题，直接交给 Agent。**
-在 DeepSeek Harness 的 Browser 里点选元素或拖一个框，就地写下批注，再把标记截图或 DOM 定位发进会话。
+在 DSH 的 Browser 里选中页面的一块，就地写批注，再把标记截图或 DOM 定位发进会话。
 
 <a href="https://github.com/cslkkl/dsh-web-annotator"><img src="assets/dsh-web-annotator.png" alt="在 DSH Browser 里框选网页上的一块区域，旁边就地写着批注" width="100%"></a>
 

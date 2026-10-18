@@ -4,15 +4,14 @@
 
 **I build tools for problems I run into, and share the useful ones.**
 Currently working on AI workflows, DeepSeek Harness plugins, and music visualization.
-
-English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page
+<sub>English · [中文](README.zh.md) · [toolboxonline.online](https://toolboxonline.online) — the same work as a web page</sub>
 
 ## Selected work
 
 ### dsh-web-annotator
 
 **Circle the problem on the page, then hand it to the Agent.**
-Inside the DeepSeek Harness Browser, click an element or drag a box, write the comment where you are looking, then send the marked screenshot or the DOM locator into the session.
+In the DSH Browser, select part of a page, comment in place, then send the marked screenshot or the DOM locator into the session.
 
 <a href="https://github.com/cslkkl/dsh-web-annotator"><img src="assets/dsh-web-annotator.png" alt="A region of a web page selected inside the DSH Browser, with the comment written in place next to it" width="100%"></a>
 
